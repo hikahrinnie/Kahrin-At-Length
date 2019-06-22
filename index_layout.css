@@ -1,0 +1,103 @@
+/*-----Kahrin Web programming style page------*/
+
+.center{
+	/*create white background*/
+	text-align: center;
+	border:8px white solid;
+	background-color: white;
+} 
+
+.picfix {
+	/*corrects float image*/
+	overflow: auto;
+}
+
+.columns {
+	font: 17px "Century Gothic", sans-serif;
+	color: #660033;
+  	column-count: 3;
+  	margin-left: 30px;
+  	margin-right: 30px;
+}
+
+#box1 {
+	/*box background*/
+	border: 4px #e6ffe6 solid;
+	background-color: #ffffcc;
+	padding: 5px 5px 5px 5px;
+	margin-top: 15px;
+	text-align: left;
+}
+
+.img1 { 
+	/*image alignment*/
+	margin-left: 37px;
+  	margin-right: 40px;
+	height:260px;
+	width:400px;
+}
+
+#und { 
+	/*underlines headers*/
+	border-bottom:1.3px #b30059 dashed;
+}
+
+#bod {
+	/*body alignment*/
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+body {
+	/*background image*/
+	background-image: url("background1.jpg");
+}
+
+/*text settings*/
+h1{
+	color: #b30059;
+}
+
+h2 {
+	font: 25px "Century Gothic", sans-serif;
+	color: #b30059;
+}
+
+h3 {
+	font: 20px "Century Gothic", sans-serif;
+	color: #b30059;
+}
+
+p {
+  font: 17px "Century Gothic", sans-serif;
+  color: #660033;
+}
+
+a {
+	font: 17px "Century Gothic", sans-serif;
+	color:#cc0066;
+}
+
+li {
+	font: 17px "Century Gothic", sans-serif;
+  	color: #660033;
+}
+
+/*creates zebra table*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  font: 17px "Century Gothic", sans-serif;
+  color: #660033;
+}
+
+tr:nth-child(even) {
+	background-color: #ffffff;
+}
